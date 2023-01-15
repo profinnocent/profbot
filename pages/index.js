@@ -50,7 +50,7 @@ export default function Home() {
             value={discuss}
             onChange={(e) => setDiscuss(e.target.value)}
           />
-          <input type="submit" value="Generate names" />
+          <input type="submit" value="Respond" />
         </form>
         <div className={styles.result}>{result}</div>
       </main>
